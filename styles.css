@@ -1,0 +1,96 @@
+
+        body {
+            font-family: 'Arial Black', sans-serif;
+            font-size: 16px;
+            color: #000000;
+            background-color: #F5E8DD;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        h1, h3 {
+            font-family: 'Poppins', sans-serif;
+            color: #000000;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            color: #000000;
+        }
+
+        p {
+            line-height: 1.6;
+            font-family: 'Segoe UI', sans-serif;
+            color: #000000;
+        }
+
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #333;
+            padding: 15px;
+            overflow-y: auto;
+        }
+
+        .main-content {
+            margin-left: 270px;
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            color: #ccc;
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #ccc;
+            font-family:'S';
+        }
+
+        hr {
+            border: 2px dotted #364533;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #intro {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: #EED3D9;
+            padding: 25px;
+            border: 5px solid #5475a7;
+            font-size: medium;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        img {
+            clip-path: circle(50%);
+            width: 160px;
+            height: 160px;
+        }
+  
